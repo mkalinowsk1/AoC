@@ -8,7 +8,7 @@ with open("2024/inputs/day8.in") as file:
 	grid = file.read().strip().split("\n")
 
 n = len(grid)
-
+print(grid)
 def in_bounds(x, y):
 	return 0 <= x < n and 0 <= y < n
 
