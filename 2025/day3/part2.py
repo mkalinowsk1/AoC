@@ -5,7 +5,7 @@ with open ("input.in") as fin:
 
 sum = 0
 
-@lru_cache(None)
+#@lru_cache(None)
 def get_max_jolt(line, pick):
 	if pick == 0:
 		return ""
